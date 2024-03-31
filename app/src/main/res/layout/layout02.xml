@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView06"
+        android:layout_width="match_parent "
+        android:layout_height="match_parent "
+        android:gravity="center"
+        android:text="相对布局管理器-215024-牛子墨 "
+        android:textSize="20sp" />
+</RelativeLayout>

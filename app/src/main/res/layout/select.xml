@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Select">
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择你的兴趣爱好： "
+        android:textSize="20dp"
+        android:background="#70DAB4"/>
+    <CheckBox
+        android:id="@+id/checkbox01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="滑雪"/>
+    <CheckBox
+        android:id="@+id/checkbox02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蹦极"/>
+    <CheckBox
+        android:id="@+id/checkbox03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="旅游"/>
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择身份证明： "
+        android:textSize="20dp"
+        android:background="#70DAB4"
+        android:layout_marginTop="20dp"/>
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="215024"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="牛子墨"/>
+    </RadioGroup>
+
+
+</LinearLayout>
